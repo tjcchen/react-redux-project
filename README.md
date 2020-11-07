@@ -1,8 +1,8 @@
 # react-redux-project
-A to-do-list project implemented with react &amp; redux
+A to-do-list project implemented with react &amp; redux.
 
 # Documentation
-docs: https://react-redux.js.org/introduction/basic-tutorial
+Docs: https://react-redux.js.org/introduction/basic-tutorial
 
 # Contact
 Email: tjcchen.engineer@gmail.com
