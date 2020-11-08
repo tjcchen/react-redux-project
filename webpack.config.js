@@ -46,5 +46,6 @@ module.exports = {
       }
     }),
     new CleanWebpackPlugin()
-  ]
+  ],
+  stats: 'normal'
 };
