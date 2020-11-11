@@ -14,6 +14,11 @@ class AddTodo extends React.Component {
   }
 
   handleAddTodo = () => {
+    // doing nothing when input is empty
+    if (!this.state.input) {
+      return;
+    }
+
     console.log('components: handle AddTodo');
 
     // dispatches actions to addTodo
