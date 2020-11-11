@@ -22,7 +22,7 @@ export default function(state = initialState, action) {
         allIds: [...state.allIds, id],
         byIds: {
           ...state.byIds,
-          [id]: {
+          [id]: {  
             content,
             completed: false
           }
@@ -34,7 +34,7 @@ export default function(state = initialState, action) {
         allIds: [...state.allIds, id],
         byIds: {
           ...state.byIds,
-          [id]: {
+          [id]: { // note this format: id as property name
             content,
             completed: false
           }
