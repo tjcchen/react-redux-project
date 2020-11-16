@@ -4,9 +4,9 @@ import cx from 'classnames';
 const Todo = ({ todo }) => (
   <li
     className="todo-item"
-    onClick={ () => { /* dispatch action to toggle todo */ } }
+    onClick={ () => { /* dispatch action to toggle todo, the below { " " } is to add some spaces */ } }
   >
-    { todo && todo.completed ? "👌" : "👋" }
+    { todo && todo.completed ? "👌" : "👋" } { " " }
     <span
       className={
         cx(
